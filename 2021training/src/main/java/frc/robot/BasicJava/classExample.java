@@ -7,6 +7,8 @@
 
 package frc.robot.BasicJava;
 
+import java.util.ArrayList;
+
 /**
  * Add your docs here.
  */
@@ -46,5 +48,10 @@ public class classExample {
         else{
             return true;
         }
+    }
+
+    
+    public void addToList(ArrayList<String> list){
+        list.add(word);
     }
 }
